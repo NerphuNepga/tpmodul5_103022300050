@@ -9,5 +9,10 @@ public class Program
         Console.Write("Masukkan nama Anda: ");
         String user = Console.ReadLine();
         haloGeneric.SapaUser(user);
+
+        DataGeneric<string> data = new DataGeneric<string>("103022300050");
+        data.PrintData();
     }
 }
+
+
